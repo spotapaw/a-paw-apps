@@ -1,0 +1,37 @@
+{
+  "skin": "africa",
+  "name": "Africa",
+  "family": {
+    "forest": "#1F5148",
+    "orange": "#FF7900",
+    "ivory": "#F6F1E7"
+  },
+  "regional": {
+    "name": "Africa",
+    "paper": "#EAD6B5",
+    "accent": "#BE8050",
+    "line": "#80502F",
+    "soft": "#CDA578",
+    "motif": "Earth pigments and woven geometric bands"
+  },
+  "ui": {
+    "normal": "#1F5148",
+    "selected": "#FF7900",
+    "surface": "#EAD6B5",
+    "selectedSurface": "#1F5148"
+  },
+  "semantic": {
+    "lost": "#B3261E",
+    "found": "#2E7D32"
+  },
+  "sizing": {
+    "core": 24,
+    "badge": 64,
+    "badgeMinimumRecommended": 48
+  },
+  "notes": [
+    "Core UI glyphs are deliberately shared; regional treatments live in badges, app icons, empty states and theme tokens.",
+    "Themed badges include a coloured background; use core SVGs for transparent 20\u201324px controls.",
+    "Monochrome Android layers keep the common app silhouette."
+  ]
+}

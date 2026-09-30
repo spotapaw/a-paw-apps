@@ -1,0 +1,37 @@
+{
+  "skin": "west-asia",
+  "name": "West Asia",
+  "family": {
+    "forest": "#1F5148",
+    "orange": "#FF7900",
+    "ivory": "#F6F1E7"
+  },
+  "regional": {
+    "name": "West Asia",
+    "paper": "#F0DEC8",
+    "accent": "#BF9061",
+    "line": "#885A3E",
+    "soft": "#D9B99A",
+    "motif": "Courtyard arch and geometric stone border"
+  },
+  "ui": {
+    "normal": "#1F5148",
+    "selected": "#FF7900",
+    "surface": "#F0DEC8",
+    "selectedSurface": "#1F5148"
+  },
+  "semantic": {
+    "lost": "#B3261E",
+    "found": "#2E7D32"
+  },
+  "sizing": {
+    "core": 24,
+    "badge": 64,
+    "badgeMinimumRecommended": 48
+  },
+  "notes": [
+    "Core UI glyphs are deliberately shared; regional treatments live in badges, app icons, empty states and theme tokens.",
+    "Themed badges include a coloured background; use core SVGs for transparent 20\u201324px controls.",
+    "Monochrome Android layers keep the common app silhouette."
+  ]
+}

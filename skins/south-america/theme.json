@@ -1,0 +1,37 @@
+{
+  "skin": "south-america",
+  "name": "South America",
+  "family": {
+    "forest": "#1F5148",
+    "orange": "#FF7900",
+    "ivory": "#F6F1E7"
+  },
+  "regional": {
+    "name": "South America",
+    "paper": "#ECE8D6",
+    "accent": "#77998B",
+    "line": "#42695C",
+    "soft": "#C7D5C1",
+    "motif": "Stepped highland weave and river rhythm"
+  },
+  "ui": {
+    "normal": "#1F5148",
+    "selected": "#FF7900",
+    "surface": "#ECE8D6",
+    "selectedSurface": "#1F5148"
+  },
+  "semantic": {
+    "lost": "#B3261E",
+    "found": "#2E7D32"
+  },
+  "sizing": {
+    "core": 24,
+    "badge": 64,
+    "badgeMinimumRecommended": 48
+  },
+  "notes": [
+    "Core UI glyphs are deliberately shared; regional treatments live in badges, app icons, empty states and theme tokens.",
+    "Themed badges include a coloured background; use core SVGs for transparent 20\u201324px controls.",
+    "Monochrome Android layers keep the common app silhouette."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "skin": "egyptian",
+  "name": "Egyptian",
+  "family": {
+    "forest": "#1F5148",
+    "orange": "#FF7900",
+    "ivory": "#F6F1E7"
+  },
+  "regional": {
+    "name": "Egyptian",
+    "paper": "#F3E5BC",
+    "accent": "#C79A42",
+    "line": "#79602C",
+    "soft": "#D6C793",
+    "motif": "Papyrus rails, lotus and Nile ripples"
+  },
+  "ui": {
+    "normal": "#1F5148",
+    "selected": "#FF7900",
+    "surface": "#F3E5BC",
+    "selectedSurface": "#1F5148"
+  },
+  "semantic": {
+    "lost": "#B3261E",
+    "found": "#2E7D32"
+  },
+  "sizing": {
+    "core": 24,
+    "badge": 64,
+    "badgeMinimumRecommended": 48
+  },
+  "notes": [
+    "Core UI glyphs are deliberately shared; regional treatments live in badges, app icons, empty states and theme tokens.",
+    "Themed badges include a coloured background; use core SVGs for transparent 20\u201324px controls.",
+    "Monochrome Android layers keep the common app silhouette."
+  ]
+}
