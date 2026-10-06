@@ -1884,6 +1884,7 @@ file_selector_windows
 google_fonts
 vector_graphics
 vector_graphics_compiler
+webview_flutter_wkwebview
 
 Copyright 2013 The Flutter Authors
 
@@ -5650,7 +5651,6 @@ video_player_platform_interface
 video_player_web
 webview_flutter
 webview_flutter_platform_interface
-webview_flutter_wkwebview
 xdg_directories
 
 Copyright 2013 The Flutter Authors. All rights reserved.
@@ -32783,7 +32783,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 --------------------------------------------------------------------------------
 webview_flutter_android
 
-Copyright 2013 The Flutter Authors. All rights reserved.
+Copyright 2013 The Flutter Authors
 
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
