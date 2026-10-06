@@ -41,7 +41,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "0ea2ee49fbf3d9d9adbb8bbb87c4c4c7
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "0c366beccb78a508e5cd0f1007f44ae6",
 "/": "0c366beccb78a508e5cd0f1007f44ae6",
-"main.dart.js": "3e64b1aacc8514c6674bfa9cfc38ba3c",
+"main.dart.js": "6a758abb82a367cf64cb87d9c55fee9c",
 "version.json": "382312b65142da6b370d3a0b74816136"};
 // The application shell files that are downloaded before a service worker can
 // start.
