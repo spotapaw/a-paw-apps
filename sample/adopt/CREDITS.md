@@ -21,3 +21,5 @@ for the sample rescues, which the app marks as Sample.
 | `fustuq.jpg` | CC0 | ['Radhe' the pet cat of Worli fish marke in Mumbai..(Wednesday 14-3-2012).JPG](https://commons.wikimedia.org/wiki/File:%27Radhe%27_the_pet_cat_of_Worli_fish_marke_in_Mumbai..(Wednesday_14-3-2012).JPG) |
 | `loulou.jpg` | CC0 | [Bunny is closed up.jpg](https://commons.wikimedia.org/wiki/File:Bunny_is_closed_up.jpg) |
 | `loulou-2.jpg` | CC0 | [Bunny is finding something.jpg](https://commons.wikimedia.org/wiki/File:Bunny_is_finding_something.jpg) |
+| `biscuit.jpg` | CC0 | [1365Dogs of Baliuag, Bulacan 18.jpg](https://commons.wikimedia.org/wiki/File:1365Dogs_of_Baliuag,_Bulacan_18.jpg) |
+| `nile.jpg` | CC0 | [2014.06.21.115327 Cat window Herrenstraße Münstermaifeld.jpg](https://commons.wikimedia.org/wiki/File:2014.06.21.115327_Cat_window_Herrenstra%C3%9Fe_M%C3%BCnstermaifeld.jpg) |
