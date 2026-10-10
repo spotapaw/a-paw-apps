@@ -9315,10 +9315,11 @@ this.c=c},
 E4:function E4(a){this.a=a},
 LY:function LY(){var _=this
 _.d="free"
-_.e=!0
-_.f="pro"
-_.r=!1
-_.w=""
+_.e=!1
+_.f=!0
+_.r="pro"
+_.w=!1
+_.x=""
 _.c=_.a=null},
 aIR:function aIR(a){this.a=a},
 aIS:function aIS(a){this.a=a},
@@ -56586,11 +56587,11 @@ case 2:return A.o(o.at(-1),r)}})
 return A.q($async$yP,r)},
 M(a){var s,r,q,p,o,n=this,m="Shelter Pro",l=null,k=A.agr("adopt",76),j=A.ck(999),i=t.p
 j=A.b([B.Mx,A.bv(A.b([B.ee,k,B.cj,A.b8(l,A.bX(A.b([A.bL("common-premium",B.X,16),B.d1,A.ac(m,l,l,l,l,l,l,l,A.a8().$4$color$fontSize$fontWeight$height(B.v,13,B.bW,1.4),l,l,l)],i),B.F,B.n,B.ai,0),B.m,l,l,new A.de(B.bF,l,l,j,l,l,B.aG),l,l,l,B.V2,l,l,l),B.aE,A.ac("For the rescues and shelters doing the work.",l,l,l,l,l,l,l,A.hz(28),B.aM,l,l),B.hh],i),B.F,B.n,B.u,l),B.aE],i)
-if(!n.e){k=n.d==="free"?"Your rescue is on the free plan.":"Your rescue is on Shelter Pro."
+if(!n.f&&n.e){k=n.d==="free"?"Your rescue is on the free plan.":"Your rescue is on Shelter Pro."
 j.push(A.ac(k,l,l,l,l,l,l,l,A.a8().$4$color$fontSize$fontWeight$height(B.v,15,B.M,1.4),B.aM,l,l))}j.push(B.hi)
 j.push(A.fE(A.bv(A.b([A.ac("Free, always",l,l,l,l,l,l,l,A.hz(20),l,l,l),B.dn,A.ac("Put animals up, publish them, read the applications and talk to the people asking. Everything an adopter sees is free for them too, and always will be.",l,l,l,l,l,l,l,A.a8().$4$color$fontSize$fontWeight$height(B.p,14,B.q,1.4),l,l,l)],i),B.a_,B.n,B.u,l),B.aI,l,B.eB))
 j.push(B.f1)
-k=n.f==="pro"
+k=n.r==="pro"
 s=k?B.k:B.aI
 r=A.ck(18)
 q=k?B.X:B.bG
@@ -56608,10 +56609,10 @@ if(n.d!=="free")j.push(A.j4("Your rescue is on Shelter Pro",l,!1,l))
 else{if(A.ahv().length!==0){k=$.by().b
 k===$&&A.a()
 k=k.gcP().c!=null}else k=!1
-if(k){k=n.r
+if(k){k=n.w
 i=k?"With the store\u2026":"Take Shelter Pro"
 j.push(A.j4(i,k?l:n.gah9(),k,l))}else j.push(A.j4("Payments arrive with the store release",l,!1,l))}j.push(B.dp)
-k=n.w
+k=n.x
 if(!(k.length!==0)){if(A.ahv().length!==0){k=$.by().b
 k===$&&A.a()
 k=k.gcP().c!=null}else k=!1
@@ -56620,34 +56621,36 @@ j=A.eE(!0,A.Xw(j,B.Vd,l,!1),!1,B.a4,!0)
 return new A.fe(A.kP(),new A.nx(j,"rescues",l),l)}}
 A.aIR.prototype={
 $0(){var s=this.a
-s.r=!0
-s.w=""},
+s.w=!0
+s.x=""},
 $S:0}
 A.aIS.prototype={
 $0(){var s=this.a
-s.r=!1
-s.w="That plan is not on the store yet."},
+s.w=!1
+s.x="That plan is not on the store yet."},
 $S:0}
 A.aIT.prototype={
 $0(){var s=this.a
-s.r=!1
-s.w=A.big(this.b,"Thank you. Your rescue is on Shelter Pro.")},
+s.w=!1
+s.x=A.big(this.b,"Thank you. Your rescue is on Shelter Pro.")},
 $S:0}
 A.aIU.prototype={
-$0(){return this.a.e=!1},
+$0(){return this.a.f=!1},
 $S:0}
 A.aIV.prototype={
-$0(){return this.a.d=J.bh(this.b)},
+$0(){var s=this.a
+s.d=J.bh(this.b)
+s.e=!0},
 $S:0}
 A.aIW.prototype={
-$0(){return this.a.e=!1},
+$0(){return this.a.f=!1},
 $S:0}
 A.aIY.prototype={
 $0(){var s=this.a
 return s.O(new A.aIX(s))},
 $S:0}
 A.aIX.prototype={
-$0(){return this.a.f="pro"},
+$0(){return this.a.r="pro"},
 $S:0}
 A.E5.prototype={
 a8(){var s=$.ao()
