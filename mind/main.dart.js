@@ -33433,12 +33433,13 @@ bhl:function bhl(){},
 a8o:function a8o(a){this.a=a},
 aet:function aet(){var _=this
 _.d="free"
-_.e=""
-_.f=!0
-_.r="pro"
-_.w=!0
-_.x=!1
-_.y=""
+_.e=!1
+_.f=""
+_.r=!0
+_.w="pro"
+_.x=!0
+_.y=!1
+_.z=""
 _.c=_.a=null},
 bhn:function bhn(a){this.a=a},
 bho:function bho(a){this.a=a},
@@ -119103,14 +119104,14 @@ A.aet.prototype={
 q1(){var s=0,r=A.v(t.H),q,p=this,o,n
 var $async$q1=A.q(function(a,b){if(a===1)return A.r(b,r)
 for(;;)switch(s){case 0:p.O(new A.bhn(p))
-s=p.r==="team"?3:5
+s=p.w==="team"?3:5
 break
 case 3:s=6
 return A.p(A.aJF("mind","mind_team_monthly"),$async$q1)
 case 6:s=4
 break
 case 5:s=7
-return A.p(A.aJE("mind",p.w),$async$q1)
+return A.p(A.aJE("mind",p.x),$async$q1)
 case 7:case 4:o=b
 if(o==null){if(p.c!=null)p.O(new A.bho(p))
 s=1
@@ -119128,7 +119129,7 @@ case 1:return A.t(q,r)}})
 return A.u($async$q1,r)},
 azW(){var s,r,q,p,o,n,m,l=null,k=A.e([],t.p)
 for(s=0;s<2;++s){r=B.a2B[s]
-q=this.w===r.a
+q=this.x===r.a
 p=q?B.tU:B.A
 o=new A.b_(999,999)
 n=q?B.Y:B.d9
@@ -119191,33 +119192,33 @@ case 2:return A.r(o.at(-1),r)}})
 return A.u($async$vZ,r)},
 L(a){var s=this,r=null,q="From the store",p=A.aIC("mind",76),o=A.cz(999),n=t.p
 o=A.e([A.bo(A.e([B.fz,p,B.cK,A.bO(r,A.cl(A.e([A.e2("common-premium",B.bc,16),B.mx,A.al("Your plan",r,r,r,r,r,r,r,A.aa().$4$color$fontSize$fontWeight$height(B.Y,13,B.cc,1.4),r,r,r,r)],n),B.a4,B.E,B.aB,0,r,r),B.F,r,r,new A.dU(B.iw,r,r,o,r,r,B.bo),r,r,r,B.Vo,r,r,r),B.bt,A.al("Keep the round, the clients and the money in one place.",r,r,r,r,r,r,r,A.KT(28),B.bh,r,r,r),B.eH],n),B.a4,B.E,B.J,0,r,B.P),B.bt],n)
-if(!s.f){p=s.d
+if(!s.r&&s.e){p=s.d
 if(p==="team")p="You are on Team."
 else p=p==="pro"?"You are on Pro.":"You are on the free plan."
 o.push(A.al(p,r,r,r,r,r,r,r,A.aa().$4$color$fontSize$fontWeight$height(B.Y,15,B.ao,1.4),B.bh,r,r,r))}o.push(B.hR)
 o.push(A.Mu(A.bo(A.e([A.al("Free",r,r,r,r,r,r,r,A.KT(20),r,r,r,r),B.eI,A.al("Five clients, every visit written up, the week ahead, and invoices that fill themselves in. No card, no end date.",r,r,r,r,r,r,r,A.aa().$4$color$fontSize$fontWeight$height(B.a2,14,B.S,1.4),r,r,r,r)],n),B.an,B.E,B.J,0,r,B.P),B.bJ,r,B.of))
 o.push(B.fy)
-o.push(A.bG5("Pro",q,"As many clients as you like, and the whole of the app.",s.r==="pro",new A.bhy(s),r))
+o.push(A.bG5("Pro",q,"As many clients as you like, and the whole of the app.",s.w==="pro",new A.bhy(s),r))
 o.push(B.bt)
-o.push(A.bG5("Team",q,"Everything in Pro, and the people who work with you, each with their own round.",s.r==="team",new A.bhz(s),"For a few hands"))
-if(s.d==="team"&&s.e.length!==0)B.c.I(o,A.e([B.fy,A.Mu(A.bo(A.e([A.al("Adding somebody to your team",r,r,r,r,r,r,r,A.aa().$4$color$fontSize$fontWeight$height(B.Y,15,B.ao,1.4),r,r,r,r),B.fz,A.al('Read them this code. They sign in, open Today, and type it under "Working for somebody else?".',r,r,r,r,r,r,r,A.aa().$4$color$fontSize$fontWeight$height(B.a2,13.5,B.S,1.4),r,r,r,r),B.bt,A.bCD(s.e,A.KT(26))],n),B.an,B.E,B.J,0,r,B.P),B.bJ,r,B.of)],n))
+o.push(A.bG5("Team",q,"Everything in Pro, and the people who work with you, each with their own round.",s.w==="team",new A.bhz(s),"For a few hands"))
+if(s.d==="team"&&s.f.length!==0)B.c.I(o,A.e([B.fy,A.Mu(A.bo(A.e([A.al("Adding somebody to your team",r,r,r,r,r,r,r,A.aa().$4$color$fontSize$fontWeight$height(B.Y,15,B.ao,1.4),r,r,r,r),B.fz,A.al('Read them this code. They sign in, open Today, and type it under "Working for somebody else?".',r,r,r,r,r,r,r,A.aa().$4$color$fontSize$fontWeight$height(B.a2,13.5,B.S,1.4),r,r,r,r),B.bt,A.bCD(s.f,A.KT(26))],n),B.an,B.E,B.J,0,r,B.P),B.bJ,r,B.of)],n))
 o.push(B.eH)
 o.push(A.bG4("Part of every Pro and Team plan funds meals for street animals through One Tail One Meal, at no extra cost to you."))
 o.push(B.hR)
 if(A.aiG().length!==0){p=$.c_().b
 p===$&&A.d()
 p=p.gdY().c!=null}else p=!1
-if(p&&s.d==="free"&&s.r==="pro")B.c.I(o,A.e([s.azW(),B.bt],n))
+if(p&&s.d==="free"&&s.w==="pro")B.c.I(o,A.e([s.azW(),B.bt],n))
 p=s.d
 if(p!=="free")o.push(A.Lw(p==="team"?"You are on Team":"You are on Pro",r,!1,r))
 else{if(A.aiG().length!==0){p=$.c_().b
 p===$&&A.d()
 p=p.gdY().c!=null}else p=!1
-if(p){p=s.x
+if(p){p=s.y
 if(p)n="With the store\u2026"
-else n=s.r==="team"?"Take Team":"Take Pro"
+else n=s.w==="team"?"Take Team":"Take Pro"
 o.push(A.Lw(n,p?r:s.gav2(),p,r))}else o.push(A.Lw("Payments arrive with the store release",r,!1,r))}o.push(B.e6)
-p=s.y
+p=s.z
 if(!(p.length!==0)){if(A.aiG().length!==0){p=$.c_().b
 p===$&&A.d()
 p=p.gdY().c!=null}else p=!1
@@ -119226,54 +119227,56 @@ o=A.fI(!0,A.buM(o,B.Vx,!1),!1,B.al,!0)
 return new A.hl(A.Sp(),new A.SC(o,"paws",r),r)}}
 A.bhn.prototype={
 $0(){var s=this.a
-s.x=!0
-s.y=""},
+s.y=!0
+s.z=""},
 $S:1}
 A.bho.prototype={
 $0(){var s=this.a
-s.x=!1
-s.y="That plan is not on the store yet."},
+s.y=!1
+s.z="That plan is not on the store yet."},
 $S:1}
 A.bhp.prototype={
 $0(){var s,r=this.a
-r.x=!1
-s=r.r==="team"?"Thank you. You are on Team.":"Thank you. You are on Pro."
-r.y=A.bLA(this.b,s)},
+r.y=!1
+s=r.w==="team"?"Thank you. You are on Team.":"Thank you. You are on Pro."
+r.z=A.bLA(this.b,s)},
 $S:1}
 A.bhr.prototype={
 $0(){var s=this.a
 return s.O(new A.bhq(s,this.b))},
 $S:1}
 A.bhq.prototype={
-$0(){return this.a.w=this.b.a},
+$0(){return this.a.x=this.b.a},
 $S:1}
 A.bhs.prototype={
-$0(){return this.a.f=!1},
+$0(){return this.a.r=!1},
 $S:1}
 A.bht.prototype={
-$0(){return this.a.d=J.bX(this.b)},
+$0(){var s=this.a
+s.d=J.bX(this.b)
+s.e=!0},
 $S:1}
 A.bhu.prototype={
 $0(){var s=this.b
 s=s==null?null:s.h(0,"join_code")
-return this.a.e=J.bX(s==null?"":s)},
+return this.a.f=J.bX(s==null?"":s)},
 $S:1}
 A.bhv.prototype={
-$0(){return this.a.f=!1},
+$0(){return this.a.r=!1},
 $S:1}
 A.bhy.prototype={
 $0(){var s=this.a
 return s.O(new A.bhx(s))},
 $S:1}
 A.bhx.prototype={
-$0(){return this.a.r="pro"},
+$0(){return this.a.w="pro"},
 $S:1}
 A.bhz.prototype={
 $0(){var s=this.a
 return s.O(new A.bhw(s))},
 $S:1}
 A.bhw.prototype={
-$0(){return this.a.r="team"},
+$0(){return this.a.w="team"},
 $S:1}
 A.a8p.prototype={
 ac(){var s=$.am()
